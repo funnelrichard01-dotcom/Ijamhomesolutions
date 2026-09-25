@@ -1,0 +1,6 @@
+{
+  "name": "IJAM Home Solutions",
+  "description": "Professional residential and multi-family contractor and home solutions in the Tampa area. Where you jam and we provide home solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

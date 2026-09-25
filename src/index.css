@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --ijam-black: #0b0c10;
+    --ijam-surface: #12151c;
+    --ijam-card: #191e28;
+    --ijam-border: #2b3342;
+    --ijam-orange: #ff9923;
+    --ijam-gold: #fcb900;
+    --ijam-green: #29962c;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #0b0c10;
+    color: #e5e7eb;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0c10;
+}
+::-webkit-scrollbar-thumb {
+  background: #232936;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff9923;
+}
